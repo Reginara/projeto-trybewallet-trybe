@@ -1,0 +1,120 @@
+.App {
+  background-color: black;
+  text-align: center;
+}
+
+.table {
+  display: table;
+  margin: auto;
+  width: 197vh;
+}
+
+.line {
+  display: table-row;
+}
+
+.column {
+  display: table-cell;
+  height: 40px;
+  text-align: center;
+  width: 40px;
+}
+
+input {
+  border-radius: 12%;
+  margin-left: 3px;
+  text-align: center;
+}
+
+select {
+  margin-left: 3px;
+}
+
+.Login {
+  align-items: center;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 198vh;
+}
+
+.wallet-img {
+  display: flex;
+  height: 75px;
+  margin: auto;
+  width: 90px;
+}
+
+.form-login {
+  align-items: center;
+  border: solid 1px white;
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+}
+
+.title-login {
+  color: rgb(15, 3, 121);
+}
+
+.button-login {
+  background-image: linear-gradient(rgb(59, 59, 59), rgb(15, 3, 121));
+  color: white;
+  font-weight: 600;
+  height: 30px;
+  margin-top: 5px;
+  width: 80px;
+}
+
+header {
+  align-items: center;
+  background-image: linear-gradient(rgb(59, 59, 59), rgb(15, 3, 121));
+  border-bottom: 2px solid rgb(179, 137, 0);
+  color: white;
+  display: flex;
+  font-size: 20px;
+  height: 12vh;
+  justify-content: space-around;
+}
+
+.total-header {
+  display: flex;
+  justify-content: center;
+}
+
+.form-expenses {
+  align-items: center;
+  background-image: linear-gradient(rgb(59, 59, 59), rgb(15, 3, 121));
+  color: white;
+  display: flex;
+  font-size: 15px;
+  font-weight: 500;
+  height: 40px;
+  justify-content: space-evenly;
+  padding-top: 5px;
+}
+
+.button-add {
+  background-image: linear-gradient(rgb(250, 207, 15), rgb(250, 207, 15));
+  border: 1px solid rgb(54, 52, 52);
+  color: #303030;
+  font-weight: 600;
+  margin-bottom: 1px;
+}
+
+thead {
+  background-image: linear-gradient(rgb(59, 59, 59), rgb(15, 3, 121));
+  color: white;
+  font-size: 14px;
+}
+
+th {
+  font-weight: 500;
+}
+
+.line-expense {
+  background-color: linear-gradient(rgb(59, 59, 59), rgb(15, 3, 121));
+  color: white;
+}
